@@ -5,4 +5,10 @@
     <string name="hello_round">Hello Round World!</string>
     <string name="hello_square">Hello Square World!</string>
 
+
+    <string name="happy_long">happy happy happy happy happy happy happy happy</string>
+    <string name="success_confirmation">Success!</string>
+    <string name="failure_text">Failure...</string>
+    <string name="phone_open">Open on Phone</string>
+
 </resources>

@@ -1,7 +1,9 @@
 package pl.tajchert.wearview;
 
 import android.app.Activity;
+import android.content.Intent;
 import android.os.Bundle;
+import android.support.wearable.activity.ConfirmationActivity;
 import android.support.wearable.view.WatchViewStub;
 import android.widget.TextView;
 
@@ -18,6 +20,10 @@ public class StubActivity extends Activity {
             @Override
             public void onLayoutInflated(WatchViewStub stub) {
                 mTextView = (TextView) stub.findViewById(R.id.text);
+                Intent intent = new Intent(StubActivity.this, ConfirmationActivity.class);
+                intent.putExtra(ConfirmationActivity.EXTRA_ANIMATION_TYPE, ConfirmationActivity.SUCCESS_ANIMATION);
+                intent.putExtra(ConfirmationActivity.EXTRA_MESSAGE, getString(R.string.success_confirmation));
+                startActivity(intent);
             }
         });
     }

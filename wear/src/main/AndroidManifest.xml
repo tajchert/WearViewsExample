@@ -20,6 +20,9 @@
         <activity
             android:name="pl.tajchert.wearview.CircledActivity" >
         </activity>
+        <activity
+            android:name="android.support.wearable.activity.ConfirmationActivity">
+        </activity>
 
     </application>
 
