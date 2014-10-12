@@ -4,11 +4,12 @@
     <string name="app_name">Wear View</string>
     <string name="hello_round">Hello Round World!</string>
     <string name="hello_square">Hello Square World!</string>
-
-
     <string name="happy_long">happy happy happy happy happy happy happy happy</string>
     <string name="success_confirmation">Success!</string>
     <string name="failure_text">Failure...</string>
     <string name="phone_open">Open on Phone</string>
+    <string name="title_activity_dismiss_overlay">DismissOverlayActivity</string>
+    <string name="title_activity_confirmation_overlay">ConfirmationActivity</string>
+    <string name="title_activity_gridviewpager">GridViewPager</string>
 
 </resources>

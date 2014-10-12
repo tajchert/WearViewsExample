@@ -14,16 +14,42 @@
             android:label="@string/app_name" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
+
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity
-            android:name="pl.tajchert.wearview.CircledActivity" >
+        <activity android:name="pl.tajchert.wearview.CircledActivity" >
         </activity>
-        <activity
-            android:name="android.support.wearable.activity.ConfirmationActivity">
+        <activity android:name="android.support.wearable.activity.ConfirmationActivity" >
         </activity>
 
+        <activity
+            android:name="pl.tajchert.wearview.DismissOverlayActivity"
+            android:theme="@style/AppThemeNoDismiss"
+            android:label="@string/title_activity_dismiss_overlay" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name="pl.tajchert.wearview.ConfirmationOverlayActivity"
+            android:label="@string/title_activity_confirmation_overlay" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name="pl.tajchert.wearview.GridViewPagerActivity"
+            android:label="@string/title_activity_gridviewpager" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
     </application>
 
 </manifest>
